@@ -20,6 +20,8 @@ Project description:
 4. Search and print Class information by class title
 5.  Search and print Class information by class id
 
+![alt ScreenImage](https://github.com/fruitmonkey01/BasicCppConsoleApp/blob/main/ScreenImage.png)
+
 Sample output:
 Standard C++ Version: C++14
 [Read class information from local file]
