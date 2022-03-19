@@ -17,26 +17,31 @@ Project description:
     to the class's map<int, string> structure
 3. Print all class information
     Print all class information by iterating the map data structure.
-4. Search and print Class information by class title
-5.  Search and print Class information by class id
+4. Get Class information by class title
+5. Get Class information by class id
 
-![alt ScreenImage](https://github.com/fruitmonkey01/BasicCppConsoleApp/blob/main/ScreenImage.png)
+![alt Example](https://github.com/fruitmonkey01/BasicCppConsoleApp/blob/main/Example.png)
 
 Sample output:
 Standard C++ Version: C++14
-[Read class information from local file]
-Class information loaded.
-[Find all classes]
-Class ID: 101, Name: ENGLISH
-Class ID: 102, Name: MATH
-Class ID: 103, Name: HISTORY
-Class ID: 104, Name: PYTHON
-Class ID: 105, Name: JAVASCRIPT
-Class ID: 106, Name: C++
-Class ID: 107, Name: ROBLOX
-Class ID: 108, Name: SWIFT
-[Find class by title]
-Class ID: 106, Name: C++
-[Find class by id]
-Class ID: 101, Name: ENGLISH
+[Read class information from file ClassInfo.txt]
+There are 8 classes tought by 8 teachers.
+[Print all classes]
+Class ID: 101, Name: ENGLISH tought by ADAM
+Class ID: 102, Name: MATH tought by CINDY
+Class ID: 103, Name: HISTORY tought by ERIC
+Class ID: 104, Name: PYTHON tought by GEORGE
+Class ID: 105, Name: JAVASCRIPT tought by IVY
+Class ID: 106, Name: C++ tought by JACK
+Class ID: 107, Name: ROBLOX tought by MARY
+Class ID: 108, Name: SWIFT tought by ROY
+There are 8 classes tought by 8 teachers.
+[Get class info by title]
+Class ID: 106, Name: C++ tought by JACK
+[Get class info by id use compare() operator]
+Found class ID: 102 class name is MATH tought by CINDY
+[Get class info by id]
+Class ID: 101, Name: ENGLISH tought by ADAM
+
+
 Program ended with exit code: 0
